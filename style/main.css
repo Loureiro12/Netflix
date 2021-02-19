@@ -25,13 +25,16 @@ header .logo {
   color: var(--vermelho);
   font-family: "Arial Black", times;
   font-size: 40px;
-  margin-left: 5px;
 }
 
 header nav a {
   text-decoration: none;
   color: #aaa;
-  margin-right: 10px;
+  margin-right: 20px;
+}
+
+.inferior {
+  padding-right: 40px;
 }
 
 header nav a:hover {
@@ -77,7 +80,7 @@ header nav a:hover {
   cursor: pointer;
   transition: 0.3s ease all;
 
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 .botao:hover {
@@ -90,7 +93,7 @@ header nav a:hover {
 }
 
 .container {
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 .filme-principal .container {
@@ -101,4 +104,16 @@ header nav a:hover {
   height: 100%;
   width: 100%;
   display: block;
+}
+
+.carrosel-filmes {
+  margin-top: 5px;
+  padding-left: 40px;
+}
+
+.carrosel-filmes p {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
